@@ -37,7 +37,7 @@ if($message['type']=='text')
 						);
 				
 	}
- 
+}
 $result =  json_encode($balas);
 //$result = ob_get_clean();
 
