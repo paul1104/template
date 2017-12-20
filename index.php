@@ -7,8 +7,8 @@ copyright @ medantechno.com
 
 require_once('./line_class.php');
 
-$channelAccessToken = ''; //sesuaikan 
-$channelSecret = '';//sesuaikan
+$channelAccessToken = 'YOUR-CHANNEL-ACCESS-TOKEN'; //sesuaikan 
+$channelSecret = 'YOUR-CHANNEL-SECRET-CODE';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 $userId 	= $client->parseEvents()[0]['source']['userId'];
@@ -22,7 +22,7 @@ $pesan_datang = $message['text'];
 //pesan bergambar
 if($message['type']=='text')
 {
-	if($pesan_datang=='Halo')
+	if($pesan_datang=='Hi')
 	{
 		
 		
@@ -37,7 +37,9 @@ if($message['type']=='text')
 						);
 				
 	}
+
 }
+ 
 $result =  json_encode($balas);
 //$result = ob_get_clean();
 
@@ -45,3 +47,5 @@ file_put_contents('./balasan.json',$result);
 
 
 $client->replyMessage($balas);
+
+?>
