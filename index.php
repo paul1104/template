@@ -49,7 +49,7 @@ if($message['type']=='text')
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://image.prntscr.com/image/DHqxWq_4Qle9Hqszx3TIMg.jpg',
+    'thumbnailImageUrl' => 'http://preview.ibb.co/bMcQco/Pics_Art_06_05_01_02_05.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
