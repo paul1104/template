@@ -49,7 +49,7 @@ if($message['type']=='text')
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'http://preview.ibb.co/bMcQco/Pics_Art_06_05_01_02_05.jpg',
+    'thumbnailImageUrl' => 'https://stmed.net/sites/default/files/sailor-moon-wallpapers-26081-2552027.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
