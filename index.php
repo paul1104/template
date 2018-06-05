@@ -59,15 +59,15 @@ if($message['type']=='text')
     array (
       'type' => 'uri',
       'label' => 'View detail',
-      'uri' => 'http://example.com/page/123',
+      'uri' => 'line.me/ti/p/~@ish7215m',
     ),
     'actions' => 
     array (
       0 => 
       array (
-        'type' => 'postback',
-        'label' => 'Buy',
-        'data' => 'action=buy&itemid=123',
+        'type' => 'uri',
+        'label' => 'Tutorial Bot',
+        'uri' => 'line.me/ti/p/~syahraqa',
       ),
       1 => 
       array (
