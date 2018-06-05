@@ -59,7 +59,7 @@ if($message['type']=='text')
     array (
       'type' => 'uri',
       'label' => 'View detail',
-      'uri' => 'line.me/ti/p/~@ish7215m',
+      'uri' => 'https://line.me/ti/p/~@ish7215m',
     ),
     'actions' => 
     array (
@@ -67,7 +67,7 @@ if($message['type']=='text')
       array (
         'type' => 'uri',
         'label' => 'Tutorial Bot',
-        'uri' => 'line.me/ti/p/~syahraqa',
+        'uri' => 'https://line.me/ti/p/~syahraqa',
       ),
       1 => 
       array (
