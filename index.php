@@ -42,7 +42,8 @@ if($message['type']=='text')
 		
 		$balas = array(
 							'replyToken' => $replyToken,														
-							'messages' => array (
+							'messages' => array(
+								array(
   'type' => 'template',
   'altText' => 'Ayo gunakan Kaneki Bot sekarang juga!',
   'template' => 
