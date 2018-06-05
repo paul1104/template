@@ -43,79 +43,45 @@ if($message['type']=='text')
 		$balas = array(
 							'replyToken' => $replyToken,														
 							'messages' => array(
-								array(
+								array (
   'type' => 'template',
-  'altText' => 'Ayo gunakan Kaneki Bot sekarang juga!',
+  'altText' => 'This is a buttons template',
   'template' => 
   array (
-    'type' => 'carousel',
-    'columns' => 
+    'type' => 'buttons',
+    'thumbnailImageUrl' => 'https://example.com/bot/images/image.jpg',
+    'imageAspectRatio' => 'rectangle',
+    'imageSize' => 'cover',
+    'imageBackgroundColor' => '#FFFFFF',
+    'title' => 'Menu',
+    'text' => 'Please select',
+    'defaultAction' => 
+    array (
+      'type' => 'uri',
+      'label' => 'View detail',
+      'uri' => 'http://example.com/page/123',
+    ),
+    'actions' => 
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://image.prntscr.com/image/J8rbIzFwSQ_WHbE0UhqyyA.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'Tutorial Bot',
-        'text' => 'Cara menggunakan bot Kaneki.',
-        'defaultAction' => 
-        array (
-          'type' => 'uri',
-          'label' => 'View detail',
-          'uri' => 'http://example.com/page/123',
-        ),
-        'actions' => 
-        array (
-          0 => 
-          array (
-            'type' => 'uri',
-            'label' => 'Video',
-            'uri' => 'http://line.me/R/home/public/post?id=ish7215m&postId=1152685347802060486',
-          ),
-          1 => 
-          array (
-            'type' => 'uri',
-            'label' => 'Photo',
-            'uri' => 'http://line.me/R/home/public/post?id=ish7215m&postId=1152812065802062947',
-          ),
-        ),
+        'type' => 'postback',
+        'label' => 'Buy',
+        'data' => 'action=buy&itemid=123',
       ),
       1 => 
       array (
-        'thumbnailImageUrl' => 'https://image.prntscr.com/image/J8rbIzFwSQ_WHbE0UhqyyA.jpg',
-        'imageBackgroundColor' => '#000000',
-        'title' => 'this is menu',
-        'text' => 'description',
-        'defaultAction' => 
-        array (
-          'type' => 'uri',
-          'label' => 'View detail',
-          'uri' => 'http://example.com/page/222',
-        ),
-        'actions' => 
-        array (
-          0 => 
-          array (
-            'type' => 'postback',
-            'label' => 'Buy',
-            'data' => 'action=buy&itemid=222',
-          ),
-          1 => 
-          array (
-            'type' => 'postback',
-            'label' => 'Add to cart',
-            'data' => 'action=add&itemid=222',
-          ),
-          2 => 
-          array (
-            'type' => 'uri',
-            'label' => 'View detail',
-            'uri' => 'http://example.com/page/222',
-          ),
-        ),
+        'type' => 'postback',
+        'label' => 'Add to cart',
+        'data' => 'action=add&itemid=123',
+      ),
+      2 => 
+      array (
+        'type' => 'uri',
+        'label' => 'View detail',
+        'uri' => 'http://example.com/page/123',
       ),
     ),
-    'imageAspectRatio' => 'rectangle',
-    'imageSize' => 'cover',
   ),
 )
 							)
