@@ -52,7 +52,7 @@ array (
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://preview.ibb.co/bMcQco/Pics_Art_06_05_01_02_05.jpg',
+        'thumbnailImageUrl' => 'https://image.prntscr.com/image/J8rbIzFwSQ_WHbE0UhqyyA.jpg',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Tutorial Bot',
         'text' => 'Cara menggunakan bot Kaneki.',
@@ -80,7 +80,7 @@ array (
       ),
       1 => 
       array (
-        'thumbnailImageUrl' => 'https://preview.ibb.co/bMcQco/Pics_Art_06_05_01_02_05.jpg',
+        'thumbnailImageUrl' => 'https://image.prntscr.com/image/J8rbIzFwSQ_WHbE0UhqyyA.jpg',
         'imageBackgroundColor' => '#000000',
         'title' => 'this is menu',
         'text' => 'description',
