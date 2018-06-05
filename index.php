@@ -49,8 +49,8 @@ if($message['type']=='text')
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://image.prntscr.com/image/J8rbIzFwSQ_WHbE0UhqyyA.jpg',
-    'imageAspectRatio' => 'rectangle',
+    'thumbnailImageUrl' => 'https://image.prntscr.com/image/DHqxWq_4Qle9Hqszx3TIMg.jpg',
+    'imageAspectRatio' => 'square',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
     'title' => 'Menu',
