@@ -30,7 +30,7 @@ if($message['type']=='text')
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => 'Halo'
+										'text' => 'Halo kamu'
 									)
 							)
 						);
