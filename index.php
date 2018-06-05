@@ -30,7 +30,7 @@ if($message['type']=='text')
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => 'Halo kamu'
+										'text' => 'Halo kamu ya'
 									)
 							)
 						);
@@ -74,7 +74,7 @@ array (
           array (
             'type' => 'uri',
             'label' => 'Photo',
-            'data' => 'http://line.me/R/home/public/post?id=ish7215m&postId=1152812065802062947',
+            'uri' => 'http://line.me/R/home/public/post?id=ish7215m&postId=1152812065802062947',
           ),
         ),
       ),
