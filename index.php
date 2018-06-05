@@ -49,7 +49,7 @@ if($message['type']=='text')
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://example.com/bot/images/image.jpg',
+    'thumbnailImageUrl' => 'https://image.prntscr.com/image/J8rbIzFwSQ_WHbE0UhqyyA.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -59,7 +59,7 @@ if($message['type']=='text')
     array (
       'type' => 'uri',
       'label' => 'View detail',
-      'uri' => 'http://example.com/page/123',
+      'uri' => 'line.me/ti/p/~@ish7215m',
     ),
     'actions' => 
     array (
